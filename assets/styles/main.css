@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.cv {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 20px 0px;
+    /*border: solid;*/
+}
