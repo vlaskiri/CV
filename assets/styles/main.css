@@ -1,11 +1,19 @@
 body {
-    background-color: black;
+    background-color: #232121;
     color: white;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .cv {
     max-width: 1200px;
     margin: 0px auto;
-    padding: 20px 0px;
-    /*border: solid;*/
+    border: red solid;
+
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
