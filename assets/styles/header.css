@@ -1,8 +1,6 @@
 .header-image {
     background-image: url("/assets/image/Everest.jpg");
-    /*height: 200px;*/
     margin-top: -260px;
-    /*padding-bottom: 20px;*/
 }
 
 .avatar {
@@ -30,13 +28,3 @@ h1 {
     color: black;
     text-shadow: red 1px 1px;
 }
-
-/*h1::after {*/
-/*    content: "";*/
-/*    margin-right: 35%;*/
-/*    margin-left: 35%;*/
-/*    margin-bottom: 2px;*/
-/*    padding: 2px 0 1px 0;*/
-/*    background-color: red;*/
-/*    display: flex;*/
-/*}*/
