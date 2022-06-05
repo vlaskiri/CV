@@ -17,6 +17,78 @@ body {
     align-items: center;
 }
 
+.contacts {
+    border-left: red solid 2px;
+    margin-bottom: 110px;
+    padding: 13px 0;
+    font-size: 24px;
+    text-align: left;
+}
+
+.image-glass {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 5px;
+    gap: 10px;
+}
+
+.glass-1 {
+    width: 43px;
+    top: -7px;
+    left: 169px;
+}
+
+.glass-2 {
+    width: 43px;
+    top: -7px;
+    left: 323px;
+}
+
+.person-info {
+    border-left: red solid 2px;
+}
+
+.skills {
+    padding-left: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.experience {
+    border-left: red solid 2px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.education {
+    border-left: red solid 2px;
+    text-align: center;
+}
+
+.table-row {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-around;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.table-column {
+    padding: 10px;
+    margin-left: 5px;
+    flex: 1;
+    border-bottom: red solid 1px;
+}
+
+.section-1, .section-2 {
+    flex-basis: 45%;
+    text-align: center;
+    margin: 5px 5px;
+}
+
+
 @media (max-width: 1024px) {
     .main {
         display: block;
@@ -24,11 +96,16 @@ body {
     }
 
     .contacts {
-        margin: 0px auto;
+        margin-bottom: 10px;
+        text-align: center;
     }
 
     .avatar {
         display: none;
+    }
+
+    h1 {
+        margin-top: 0px;
     }
 
 }
