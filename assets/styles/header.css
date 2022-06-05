@@ -10,13 +10,17 @@
     width: 250px;
 }
 
-.header-h1 {
+.header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
     font-size: 100px;
     letter-spacing: 15px;
     text-shadow: black 3px 3px;
+}
+
+.header span {
+    width: 310px;
 }
 
 h1 {
