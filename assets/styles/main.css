@@ -82,7 +82,7 @@ body {
     border-bottom: red solid 1px;
 }
 
-.section-1, .section-2 {
+.section-left, .section-right {
     flex-basis: 45%;
     text-align: center;
     margin: 5px 5px;

@@ -19,7 +19,8 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-.h2 {
+.title {
+    margin: 5px 0px;
     font-size: 34px;
     text-shadow: red 2px 2px;
     text-align: center;
