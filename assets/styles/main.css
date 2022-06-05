@@ -16,3 +16,21 @@ body {
     gap: 100px;
     align-items: center;
 }
+
+@media (max-width: 1024px) {
+    .main {
+        display: block;
+        text-align: center;
+    }
+
+    .header-h1 {
+        display: block;
+        text-align: center;
+        font-size: 68px;
+    }
+
+    .avatar {
+        display: none;
+    }
+
+}

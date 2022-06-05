@@ -1,22 +1,20 @@
 .header-image {
     background-image: url("/assets/image/Everest.jpg");
-    margin-top: -260px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .avatar {
-    margin: 5px 447px;
-    padding: 250px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
     display: block;
-    width: 300px;
+    width: 250px;
 }
 
 .header-h1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: flex-end;
     font-size: 100px;
-    margin-top: -120px;
-    margin-left: -110px;
-    margin-right: -110px;
     letter-spacing: 15px;
     text-shadow: black 3px 3px;
 }
